@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderingApp", "RenderingAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyApp", "FlyApp\FlyApp.csproj", "{21F5D076-6BE1-4FB8-BBC5-FD6AFE76E7CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollingPlatformApp", "ScrollingPlatformApp\ScrollingPlatformApp.csproj", "{9081B4E2-B3A8-4825-B826-4780CC7BA988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{21F5D076-6BE1-4FB8-BBC5-FD6AFE76E7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21F5D076-6BE1-4FB8-BBC5-FD6AFE76E7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21F5D076-6BE1-4FB8-BBC5-FD6AFE76E7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9081B4E2-B3A8-4825-B826-4780CC7BA988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9081B4E2-B3A8-4825-B826-4780CC7BA988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9081B4E2-B3A8-4825-B826-4780CC7BA988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9081B4E2-B3A8-4825-B826-4780CC7BA988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

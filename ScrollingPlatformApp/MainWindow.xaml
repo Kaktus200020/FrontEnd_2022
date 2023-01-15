@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ScrollingPlatformApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="520" Width="800" FocusManager.FocusedElement="{Binding ElementName=MapCanvas}">
+    <Canvas Name="MapCanvas" Focusable="True" KeyDown="MapCanvas_KeyDown" KeyUp="MapCanvas_KeyUp">
+        <!--bg-->
+        <Rectangle Name="bg1" Width="1000" Height="496" Fill="LightSkyBlue"/>
+        <Rectangle Name="bg2" Canvas.Left="1000" Width="1000" Height="496" Fill="LightBlue"/>
+        <!--player-->
+        <Rectangle Name="player" Width="50" Height="60" Fill="Pink" Canvas.Left="50" Canvas.Top="100"/>
+        <!--Player-->
+        <Rectangle Width="127" Height="62" Fill="Black" Canvas.Left="0" Canvas.Top="445"/>
+        <Rectangle  Width="127" Height="62" Fill="Black" Canvas.Left="127" Canvas.Top="445"/>
+        <Rectangle Width="127" Height="62" Fill="Black" Canvas.Left="337" Canvas.Top="358"/>
+        <Rectangle Width="127" Height="62" Fill="Black" Canvas.Left="532" Canvas.Top="271"/>
+        <!--key-->
+        <Rectangle Width="40" Height="20" Fill="Yellow" Canvas.Left="360" Canvas.Top="302"/>
+        <!--door-->
+        <Rectangle Width="60" Height="90" Fill="Brown" Canvas.Left="566" Canvas.Top="180"/>
+        <!--coins-->
+        <Rectangle Width="30" Height="30" Fill="Orange" Canvas.Left="190" Canvas.Top="389"/>
+        <Rectangle Width="30" Height="30" Fill="Orange" Canvas.Left="190" Canvas.Top="289"/>
+    </Canvas>
 </Window>
